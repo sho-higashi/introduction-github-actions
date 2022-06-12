@@ -55,10 +55,10 @@ _Welcome to "Hello GitHub Actions"! :wave:_
 
 **What is _GitHub Actions_?**: GitHub Actions is a flexible way to automate nearly every aspect of your team's software workflow. You can automate testing, continuously deploy, review code, manage issues and pull requests, and much more. The best part, these workflows are stored as code in your repository and easily shared and reused across teams. To learn more, check out these resources:
 
--  The GitHub Actions feature page, see  [GitHub Actions](https://github.com/features/actions).
--  The "GitHub Actions" user documentation, see [GitHub Actions](https://docs.github.com/actions).
+- The GitHub Actions feature page, see [GitHub Actions](https://github.com/features/actions).
+- The "GitHub Actions" user documentation, see [GitHub Actions](https://docs.github.com/actions).
 
-**What is a _workflow_?**: A workflow is a configurable automated process that will run one or more jobs. Workflows are defined in special files in the `.github/workflows` directory and they execute based on your chosen event. For this exercise, we'll use a `pull_request` event. 
+**What is a _workflow_?**: A workflow is a configurable automated process that will run one or more jobs. Workflows are defined in special files in the `.github/workflows` directory and they execute based on your chosen event. For this exercise, we'll use a `pull_request` event.
 
 - To read more about workflows, jobs, and events, see "[Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)".
 - If you want to learn more about the `pull_request` event before using it, see "[pull_request](https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#pull_request)".
@@ -109,7 +109,7 @@ In this step of our exercise, we will add a "build" job. We will specify `ubuntu
 
 ### :keyboard: Activity: Add a job to your workflow file
 
-1. Open your `welcome.yml` file. 
+1. Open your `welcome.yml` file.
 2. Update the contents of the file to:
    ```yaml
    name: Post welcome comment
@@ -213,9 +213,9 @@ Your new action will run any time a new commit is created or pushed to the remot
 
 1. Make a new branch named `test-workflow`.
 1. Commit any change to your branch, such as adding an emoji to your README.md file.
-2. Create the pull request on your branch.
-3. See your action run on your pull request.
-4. Wait about 20 seconds for actions to run, then refresh this page (the one you're following instructions from) and an action will automatically close this step and open the next one.
+1. Create the pull request on your branch.
+1. See your action run on your pull request.
+1. Wait about 20 seconds for actions to run, then refresh this page (the one you're following instructions from) and an action will automatically close this step and open the next one.
 
 </details>
 
@@ -259,3 +259,5 @@ Here's a recap of all the tasks you've accomplished in your repository:
 Get help: [Post in our discussion board](https://github.com/skills/.github/discussions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+### ADD NEW LINE
